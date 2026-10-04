@@ -198,7 +198,7 @@ const t = useTranslations(lang);
     // --- Rotation state ---
     // COBE center longitude: phi = -(90 + lng) * PI / 180
     // Positive theta tilts to show northern hemisphere
-    const initPhi = -(90 + 10) * Math.PI / 180;  // center on ~10°E (Europe)
+    const initPhi = -(90 - 100) * Math.PI / 180;  // center on ~100°W (United States)
     let currentPhi = initPhi;
     let currentTheta = 0.65;
     let targetPhi = initPhi;
@@ -273,8 +273,9 @@ const t = useTranslations(lang);
           (state as any).scale = cobeScale;
           needsCOBEResize = false;
         }
+        // Auto-rotation moves the view east: from the US across the Atlantic to Europe
         if (autoRotate && !pointerDown) {
-          targetPhi += 0.003;
+          targetPhi -= 0.003;
         }
         // Apply momentum when not dragging
         if (!pointerDown) {
