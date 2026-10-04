@@ -136,6 +136,23 @@
     }
   },
   {
+    "id": "openai-devday-exchange-sao-paulo-2026",
+    "name": "OpenAI DevDay Exchange São Paulo 2026",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "mode": "in-person",
+    "url": "https://events.openai.com/devdayexchange2026/",
+    "emoji": "🇧🇷",
+    "description": {
+      "en": "OpenAI DevDay Exchange São Paulo is one of eight regional OpenAI DevDay Exchange events in 2026, taking place on November 6, 2026. Attendance is by application."
+    }
+  },
+  {
     "id": "ai-engineer-code-summit-2026",
     "name": "AI Engineer Code Summit 2026",
     "city": "San Francisco",
@@ -148,8 +165,28 @@
     "mode": "hybrid",
     "url": "https://ai.engineer/code/2026",
     "emoji": "🇺🇸",
+    "featured": true,
+    "logo": "/logos/ai-engineer-code-summit-2026.svg",
+    "logoBg": "dark",
     "description": {
       "en": "AI Engineer Code Summit 2026 is an AI developer conference focused on coding agents and development tools, taking place November 10-12, 2026 at the Hilton Union Square in San Francisco, with a livestream for remote attendees."
+    }
+  },
+  {
+    "id": "openai-devday-exchange-mexico-city-2026",
+    "name": "OpenAI DevDay Exchange Mexico City 2026",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-10",
+    "mode": "in-person",
+    "url": "https://events.openai.com/devdayexchange2026/",
+    "emoji": "🇲🇽",
+    "description": {
+      "en": "OpenAI DevDay Exchange Mexico City is one of eight regional OpenAI DevDay Exchange events in 2026, taking place on November 10, 2026. Attendance is by application."
     }
   },
   {
@@ -184,6 +221,23 @@
     "emoji": "🇺🇸",
     "description": {
       "en": "AWS re:Invent 2026 is Amazon Web Services' cloud computing conference, taking place November 30 - December 4, 2026 in Las Vegas."
+    }
+  },
+  {
+    "id": "salesforce-aiforce-world-tour-new-york-2026",
+    "name": "Salesforce AIforce World Tour New York 2026",
+    "city": "New York",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 40.7577,
+    "lng": -74.0027,
+    "startDate": "2026-12-03",
+    "endDate": "2026-12-03",
+    "mode": "hybrid",
+    "url": "https://www.salesforce.com/events/world-tour/nyc/",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "Salesforce AIforce World Tour New York 2026 takes place on December 3, 2026 at the Javits Center in New York and on Salesforce+."
     }
   },
   {
@@ -250,6 +304,8 @@
     "mode": "in-person",
     "url": "https://waicf.com/",
     "emoji": "🇫🇷",
+    "featured": true,
+    "logo": "/logos/world-ai-cannes-festival-2027.png",
     "description": {
       "en": "World AI Cannes Festival (WAICF) 2027 takes place February 10-11, 2027 at the Palais des Festivals et des Congrès, Cannes."
     }
