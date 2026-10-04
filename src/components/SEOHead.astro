@@ -1,0 +1,123 @@
+---
+import { languages, type Lang } from '../i18n/locales';
+import { useTranslations } from '../i18n/utils';
+import type { AIEvent } from '../types';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  keywords: string;
+  events?: AIEvent[];
+  path?: string;
+}
+
+const { lang, title, description, keywords, events = [], path } = Astro.props;
+const t = useTranslations(lang);
+const siteUrl = 'https://aieventsworld.com';
+const siteName = 'AI Events World';
+const pageSuffix = path ? `/${path}` : '/';
+const currentUrl = `${siteUrl}/${lang}${pageSuffix}`;
+const ogImage = `${siteUrl}/og-image.png`;
+const ogImageAlt = 'AI Events World: upcoming AI conferences on an interactive globe';
+const ogLocales: Record<Lang, string> = {
+  en: 'en_US',
+  es: 'es_ES',
+  fr: 'fr_FR',
+  de: 'de_DE',
+  it: 'it_IT',
+  nl: 'nl_NL',
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  alternateName: 'AI Conference Calendar',
+  url: `${siteUrl}/${lang}/`,
+  description: t('site.description'),
+  inLanguage: lang,
+};
+
+const eventSchemas = events.map((event) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: event.name,
+  startDate: event.startDate,
+  endDate: event.endDate,
+  description: event.description ? (event.description[lang] || event.description.en) : event.name,
+  url: event.url,
+  image: ogImage,
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode:
+    event.mode === 'online'
+      ? 'https://schema.org/OnlineEventAttendanceMode'
+      : event.mode === 'hybrid'
+        ? 'https://schema.org/MixedEventAttendanceMode'
+        : 'https://schema.org/OfflineEventAttendanceMode',
+  location:
+    event.mode === 'online'
+      ? { '@type': 'VirtualLocation', url: event.url }
+      : {
+          '@type': 'Place',
+          name: `${event.city}, ${event.country}`,
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: event.city,
+            addressCountry: event.countryCode,
+          },
+        },
+}));
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#060b18" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href={currentUrl} />
+
+{Object.keys(languages).map((locale) => (
+  <link rel="alternate" hreflang={locale} href={`${siteUrl}/${locale}${pageSuffix}`} />
+))}
+<link rel="alternate" hreflang="x-default" href={`${siteUrl}/en${pageSuffix}`} />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={currentUrl} />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:locale" content={ogLocales[lang]} />
+{(Object.keys(languages) as Lang[]).filter((l) => l !== lang).map((locale) => (
+  <meta property="og:locale:alternate" content={ogLocales[locale]} />
+))}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" /></noscript>
+
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={ogImageAlt} />
+<meta name="twitter:image" content={ogImage} />
+<meta name="twitter:image:alt" content={ogImageAlt} />
+
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+{eventSchemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

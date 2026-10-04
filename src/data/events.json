@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ai-engineer-new-york-2026",
+    "name": "AI Engineer New York 2026",
+    "city": "New York",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 40.7627,
+    "lng": -73.9816,
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-14",
+    "mode": "hybrid",
+    "url": "https://ai.engineer/nyc/2026",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "AI Engineer New York 2026 is an AI conference for engineers and technical leaders, taking place October 12-14, 2026 at the Sheraton New York Times Square Hotel, with a livestream for remote attendees."
+    }
+  },
+  {
+    "id": "ai-engineer-shanghai-2026",
+    "name": "AI Engineer Shanghai 2026",
+    "city": "Shanghai",
+    "country": "China",
+    "countryCode": "CN",
+    "lat": 31.188,
+    "lng": 121.389,
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-06",
+    "mode": "in-person",
+    "url": "https://ai.engineer/shanghai/2026",
+    "emoji": "🇨🇳",
+    "description": {
+      "en": "AI Engineer Shanghai 2026 is an AI engineering conference taking place November 5-6, 2026 at the Hilton Shanghai Hongqiao."
+    }
+  },
+  {
+    "id": "ai-engineer-code-summit-2026",
+    "name": "AI Engineer Code Summit 2026",
+    "city": "San Francisco",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 37.7857,
+    "lng": -122.4105,
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-12",
+    "mode": "hybrid",
+    "url": "https://ai.engineer/code/2026",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "AI Engineer Code Summit 2026 is an AI developer conference focused on coding agents and development tools, taking place November 10-12, 2026 at the Hilton Union Square in San Francisco, with a livestream for remote attendees."
+    }
+  },
+  {
+    "id": "ai-engineer-sydney-2026",
+    "name": "AI Engineer Sydney 2026",
+    "city": "Sydney",
+    "country": "Australia",
+    "countryCode": "AU",
+    "lat": -33.872,
+    "lng": 151.2076,
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-08",
+    "mode": "in-person",
+    "url": "https://webdirections.org/ai-engineer/",
+    "emoji": "🇦🇺",
+    "description": {
+      "en": "AI Engineer Sydney 2026 is an AI engineering conference presented by Web Directions, taking place December 7-8, 2026 at the Hilton Sydney."
+    }
+  },
+  {
+    "id": "ai-engineer-europe-2027",
+    "name": "AI Engineer Europe 2027",
+    "city": "London",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "lat": 51.5081,
+    "lng": 0.0294,
+    "startDate": "2027-02-17",
+    "endDate": "2027-02-19",
+    "mode": "in-person",
+    "url": "https://ai.engineer/europe/2027",
+    "emoji": "🇬🇧",
+    "description": {
+      "en": "AI Engineer Europe 2027 is an AI engineering conference taking place February 17-19, 2027 at ExCeL London."
+    }
+  },
+  {
+    "id": "ai-engineer-miami-2027",
+    "name": "AI Engineer Miami 2027",
+    "city": "Miami",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 25.7716,
+    "lng": -80.1909,
+    "startDate": "2027-04-26",
+    "endDate": "2027-04-27",
+    "mode": "in-person",
+    "url": "https://ai.engineer/miami/2027",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "AI Engineer Miami 2027 is an AI engineering conference taking place April 26-27, 2027 at the Hyatt Regency Miami."
+    }
+  }
+]
