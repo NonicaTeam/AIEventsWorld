@@ -63,6 +63,8 @@
     "mode": "in-person",
     "url": "https://aicongress.barcelona/en/",
     "emoji": "🇪🇸",
+    "featured": true,
+    "logo": "/logos/ai-congress-barcelona-2026.png",
     "description": {
       "en": "AI Congress Barcelona 2026 is an artificial intelligence congress organized by Eurecat and CIDAI, taking place October 20-22, 2026 at L'illa Auditorium, Barcelona."
     }
@@ -340,6 +342,9 @@
     "mode": "in-person",
     "url": "https://ai.engineer/europe/2027",
     "emoji": "🇬🇧",
+    "featured": true,
+    "logo": "/logos/ai-engineer-europe-2027.svg",
+    "logoBg": "dark",
     "description": {
       "en": "AI Engineer Europe 2027 is an AI engineering conference taking place February 17-19, 2027 at ExCeL London."
     }
