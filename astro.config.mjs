@@ -19,7 +19,8 @@ export default defineConfig({
   adapter: cloudflare(),
   integrations: [
     sitemap({
-      lastmod: new Date(),
+      // No lastmod: the site rebuilds daily, so the build date would mark every page as changed every day
+      // and Google would learn to ignore it. events.json has no per-event change dates to use instead.
       // Newsletter opt-in landing page: never listed in search engines.
       // The bare root only redirects to /en/, so it is left out as well.
       // Past events (and events more than 12 months out) are left out too.
