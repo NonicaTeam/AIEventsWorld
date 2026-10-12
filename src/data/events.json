@@ -51,6 +51,23 @@
     }
   },
   {
+    "id": "ai-big-data-expo-europe-2026",
+    "name": "AI & Big Data Expo Europe 2026",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "lat": 52.3417,
+    "lng": 4.8892,
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-20",
+    "mode": "in-person",
+    "url": "https://www.ai-expo.net/europe/",
+    "emoji": "🇳🇱",
+    "description": {
+      "en": "AI & Big Data Expo Europe 2026 takes place October 19-20, 2026 at RAI Amsterdam in Amsterdam, Netherlands."
+    }
+  },
+  {
     "id": "ai-congress-barcelona-2026",
     "name": "AI Congress Barcelona 2026",
     "city": "Barcelona",
@@ -104,6 +121,57 @@
     }
   },
   {
+    "id": "tedai-vienna-2026",
+    "name": "TEDAI Vienna 2026",
+    "city": "Vienna",
+    "country": "Austria",
+    "countryCode": "AT",
+    "lat": 48.2066,
+    "lng": 16.3655,
+    "startDate": "2026-10-28",
+    "endDate": "2026-10-30",
+    "mode": "in-person",
+    "url": "https://tedai-vienna.ted.com/",
+    "emoji": "🇦🇹",
+    "description": {
+      "en": "TEDAI Vienna 2026 is TED's conference on artificial intelligence, taking place October 28-30, 2026 at the Hofburg in Vienna, Austria."
+    }
+  },
+  {
+    "id": "ai-expo-europe-2026",
+    "name": "AI Expo Europe 2026",
+    "city": "Bucharest",
+    "country": "Romania",
+    "countryCode": "RO",
+    "lat": 44.4268,
+    "lng": 26.1025,
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-02",
+    "mode": "in-person",
+    "url": "https://aiexpoeurope.com/",
+    "emoji": "🇷🇴",
+    "description": {
+      "en": "AI Expo Europe 2026 is an AI conference and exhibition taking place November 1-2, 2026 at the Radisson Blu Hotel in Bucharest, Romania."
+    }
+  },
+  {
+    "id": "micai-2026",
+    "name": "MICAI 2026",
+    "city": "Chihuahua",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "lat": 28.632,
+    "lng": -106.0691,
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-06",
+    "mode": "in-person",
+    "url": "https://ai-research.tec.mx/en/evento/micai-2026-25-years-advancing-artificial-intelligence-mexico",
+    "emoji": "🇲🇽",
+    "description": {
+      "en": "MICAI 2026, the 25th Mexican International Conference on Artificial Intelligence, takes place November 2-6, 2026 at Tecnológico de Monterrey, Campus Chihuahua, in Chihuahua, Mexico."
+    }
+  },
+  {
     "id": "big-data-ai-world-madrid-2026",
     "name": "Big Data & AI World Madrid 2026",
     "city": "Madrid",
@@ -138,6 +206,23 @@
     }
   },
   {
+    "id": "mlops-north-2026",
+    "name": "MLOps North 2026",
+    "city": "Toronto",
+    "country": "Canada",
+    "countryCode": "CA",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-06",
+    "mode": "in-person",
+    "url": "https://www.torontomachinelearning.com/",
+    "emoji": "🇨🇦",
+    "description": {
+      "en": "MLOps North 2026: Building with Agents, organized by the Toronto Machine Learning Society, takes place November 5-6, 2026 in Toronto, Canada."
+    }
+  },
+  {
     "id": "openai-devday-exchange-sao-paulo-2026",
     "name": "OpenAI DevDay Exchange São Paulo 2026",
     "city": "São Paulo",
@@ -152,6 +237,40 @@
     "emoji": "🇧🇷",
     "description": {
       "en": "OpenAI DevDay Exchange São Paulo is one of eight regional OpenAI DevDay Exchange events in 2026, taking place on November 6, 2026. Attendance is by application."
+    }
+  },
+  {
+    "id": "corl-2026",
+    "name": "CoRL 2026",
+    "city": "Austin",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-12",
+    "mode": "in-person",
+    "url": "https://2026.corl.org/",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "CoRL 2026, the Conference on Robot Learning, takes place November 9-12, 2026 in Austin, Texas, with the main conference November 9-11 and workshops on November 12."
+    }
+  },
+  {
+    "id": "ai-week-tel-aviv-2026",
+    "name": "AI Week Tel Aviv 2026",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "countryCode": "IL",
+    "lat": 32.1133,
+    "lng": 34.8044,
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-11",
+    "mode": "in-person",
+    "url": "https://ai-week.com/",
+    "emoji": "🇮🇱",
+    "description": {
+      "en": "AI Week 2026 is Tel Aviv University's annual artificial intelligence conference, taking place November 9-11, 2026 at Tel Aviv University in Tel Aviv, Israel."
     }
   },
   {
@@ -189,6 +308,91 @@
     "emoji": "🇲🇽",
     "description": {
       "en": "OpenAI DevDay Exchange Mexico City is one of eight regional OpenAI DevDay Exchange events in 2026, taking place on November 10, 2026. Attendance is by application."
+    }
+  },
+  {
+    "id": "handelsblatt-ki-summit-2026",
+    "name": "Handelsblatt KI-Summit 2026",
+    "city": "Munich",
+    "country": "Germany",
+    "countryCode": "DE",
+    "lat": 48.1351,
+    "lng": 11.582,
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-17",
+    "mode": "in-person",
+    "url": "https://live.handelsblatt.com/event/handelsblatt-ki-summit/",
+    "emoji": "🇩🇪",
+    "description": {
+      "en": "Handelsblatt KI-Summit 2026 is Handelsblatt's AI summit for business leaders, taking place November 16-17, 2026 at the House of Communication in Munich, Germany."
+    }
+  },
+  {
+    "id": "swiss-ai-summit-2026",
+    "name": "Swiss AI Summit 2026",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "lat": 47.3705,
+    "lng": 8.5482,
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-16",
+    "mode": "in-person",
+    "url": "https://www.swissaisummit.com/",
+    "emoji": "🇨🇭",
+    "description": {
+      "en": "Swiss AI Summit 2026 takes place on November 16, 2026 at Kunsthaus Zürich in Zurich, Switzerland."
+    }
+  },
+  {
+    "id": "apply-ai-summit-2026",
+    "name": "Apply AI Summit 2026",
+    "city": "Brussels",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-17",
+    "mode": "hybrid",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/apply-ai-summit",
+    "emoji": "🇧🇪",
+    "description": {
+      "en": "Apply AI Summit 2026 is the European Commission's summit on AI adoption, taking place on November 17, 2026 in Brussels, Belgium and online."
+    }
+  },
+  {
+    "id": "global-ai-show-abu-dhabi-2026",
+    "name": "Global AI Show Abu Dhabi 2026",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "startDate": "2026-11-18",
+    "endDate": "2026-11-19",
+    "mode": "in-person",
+    "url": "https://www.globalaishow.com/abu-dhabi/",
+    "emoji": "🇦🇪",
+    "description": {
+      "en": "Global AI Show Abu Dhabi 2026 is an AI conference and exhibition taking place November 18-19, 2026 at Space42 Arena in Abu Dhabi, United Arab Emirates."
+    }
+  },
+  {
+    "id": "uk-ai-research-symposium-2026",
+    "name": "UK AI Research Symposium 2026",
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "startDate": "2026-11-24",
+    "endDate": "2026-11-25",
+    "mode": "in-person",
+    "url": "https://www.ukairs.ac.uk/",
+    "emoji": "🇬🇧",
+    "description": {
+      "en": "The UK AI Research Symposium (UKAIRS) 2026 takes place November 24-25, 2026 at the John McIntyre Conference Centre, University of Edinburgh, in Edinburgh, United Kingdom."
     }
   },
   {
@@ -294,6 +498,40 @@
     }
   },
   {
+    "id": "world-summit-ai-qatar-2026",
+    "name": "World Summit AI Qatar 2026",
+    "city": "Doha",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "startDate": "2026-12-15",
+    "endDate": "2026-12-16",
+    "mode": "in-person",
+    "url": "https://qatar.worldsummit.ai/",
+    "emoji": "🇶🇦",
+    "description": {
+      "en": "World Summit AI Qatar 2026 takes place December 15-16, 2026 in Doha, Qatar."
+    }
+  },
+  {
+    "id": "wacv-2027",
+    "name": "WACV 2027",
+    "city": "Orlando",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 28.3709,
+    "lng": -81.5193,
+    "startDate": "2027-01-04",
+    "endDate": "2027-01-08",
+    "mode": "in-person",
+    "url": "https://wacv.thecvf.com/Conferences/2027",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "WACV 2027, the IEEE/CVF Winter Conference on Applications of Computer Vision, takes place January 4-8, 2027 at Disney Springs near Orlando, Florida, with workshops January 4-5 and the main conference January 6-8."
+    }
+  },
+  {
     "id": "world-ai-cannes-festival-2027",
     "name": "World AI Cannes Festival 2027",
     "city": "Cannes",
@@ -350,6 +588,23 @@
     }
   },
   {
+    "id": "mlds-2027-bengaluru",
+    "name": "MLDS 2027 Bengaluru",
+    "city": "Bengaluru",
+    "country": "India",
+    "countryCode": "IN",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "startDate": "2027-02-25",
+    "endDate": "2027-02-26",
+    "mode": "in-person",
+    "url": "https://mlds.analyticsindiamag.com/ai-conference-india-2027",
+    "emoji": "🇮🇳",
+    "description": {
+      "en": "MLDS 2027, Analytics India Magazine's Machine Learning Developers Summit, takes place February 25-26, 2027 in Bengaluru, India."
+    }
+  },
+  {
     "id": "nvidia-gtc-2027",
     "name": "NVIDIA GTC 2027",
     "city": "San Jose",
@@ -401,6 +656,23 @@
     }
   },
   {
+    "id": "gitex-ai-mediterranean-italy-2027",
+    "name": "GITEX AI Mediterranean Italy 2027",
+    "city": "Rome",
+    "country": "Italy",
+    "countryCode": "IT",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "startDate": "2027-04-21",
+    "endDate": "2027-04-22",
+    "mode": "in-person",
+    "url": "https://gitexitaly.com/",
+    "emoji": "🇮🇹",
+    "description": {
+      "en": "GITEX AI Mediterranean Italy 2027 takes place April 21-22, 2027 in Rome, Italy."
+    }
+  },
+  {
     "id": "ai-engineer-miami-2027",
     "name": "AI Engineer Miami 2027",
     "city": "Miami",
@@ -415,6 +687,40 @@
     "emoji": "🇺🇸",
     "description": {
       "en": "AI Engineer Miami 2027 is an AI engineering conference taking place April 26-27, 2027 at the Hyatt Regency Miami."
+    }
+  },
+  {
+    "id": "aamas-2027",
+    "name": "AAMAS 2027",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "lat": 21.0278,
+    "lng": 105.8342,
+    "startDate": "2027-05-03",
+    "endDate": "2027-05-07",
+    "mode": "in-person",
+    "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+    "emoji": "🇻🇳",
+    "description": {
+      "en": "AAMAS 2027, the International Conference on Autonomous Agents and Multiagent Systems, takes place May 3-7, 2027 at the JW Marriott Hotel Hanoi in Hanoi, Vietnam."
+    }
+  },
+  {
+    "id": "machine-learning-prague-2027",
+    "name": "Machine Learning Prague 2027",
+    "city": "Prague",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "lat": 50.0755,
+    "lng": 14.4378,
+    "startDate": "2027-05-03",
+    "endDate": "2027-05-05",
+    "mode": "hybrid",
+    "url": "https://www.mlprague.com/",
+    "emoji": "🇨🇿",
+    "description": {
+      "en": "Machine Learning Prague 2027 takes place May 3-5, 2027 in Prague, Czechia and online."
     }
   },
   {
@@ -449,6 +755,74 @@
     "emoji": "🇩🇪",
     "description": {
       "en": "Rise of AI Conference 2027 takes place on May 12, 2027 in Berlin and virtually."
+    }
+  },
+  {
+    "id": "upper-bound-2027",
+    "name": "Upper Bound 2027",
+    "city": "Edmonton",
+    "country": "Canada",
+    "countryCode": "CA",
+    "lat": 53.5461,
+    "lng": -113.4938,
+    "startDate": "2027-05-18",
+    "endDate": "2027-05-21",
+    "mode": "in-person",
+    "url": "https://www.amii.ca/events/upper-bound-2027",
+    "emoji": "🇨🇦",
+    "description": {
+      "en": "Upper Bound 2027 is Amii's annual AI conference, taking place May 18-21, 2027 at the Edmonton Convention Centre in Edmonton, Canada."
+    }
+  },
+  {
+    "id": "big-data-ai-world-frankfurt-2027",
+    "name": "Big Data & AI World Frankfurt 2027",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "countryCode": "DE",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "startDate": "2027-05-19",
+    "endDate": "2027-05-20",
+    "mode": "in-person",
+    "url": "https://www.techshowfrankfurt.de/big-data-ai-world-frankfurt-2027",
+    "emoji": "🇩🇪",
+    "description": {
+      "en": "Big Data & AI World Frankfurt 2027 takes place May 19-20, 2027 at Messe Frankfurt in Frankfurt, Germany."
+    }
+  },
+  {
+    "id": "ai-week-milan-2027",
+    "name": "AI Week Milan 2027",
+    "city": "Milan",
+    "country": "Italy",
+    "countryCode": "IT",
+    "lat": 45.4642,
+    "lng": 9.19,
+    "startDate": "2027-05-25",
+    "endDate": "2027-05-26",
+    "mode": "in-person",
+    "url": "https://www.aiweek.it/en/",
+    "emoji": "🇮🇹",
+    "description": {
+      "en": "AI WEEK 2027, the Italian artificial intelligence event, takes place May 25-26, 2027 at Fiera Milano Rho in Milan, Italy."
+    }
+  },
+  {
+    "id": "ijcnn-2027",
+    "name": "IJCNN 2027",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "startDate": "2027-06-14",
+    "endDate": "2027-06-18",
+    "mode": "in-person",
+    "url": "https://ijcnn.org/2027",
+    "emoji": "🇿🇦",
+    "description": {
+      "en": "IJCNN 2027, the IEEE International Joint Conference on Neural Networks, takes place June 14-18, 2027 in Cape Town, South Africa."
     }
   },
   {
@@ -520,6 +894,40 @@
     }
   },
   {
+    "id": "the-ai-summit-australia-2027",
+    "name": "The AI Summit Australia 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "countryCode": "AU",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "startDate": "2027-08-23",
+    "endDate": "2027-08-25",
+    "mode": "in-person",
+    "url": "https://australia.theaisummit.com/",
+    "emoji": "🇦🇺",
+    "description": {
+      "en": "The AI Summit Australia 2027 takes place August 23-25, 2027 at the Melbourne Convention and Exhibition Centre in Melbourne, Australia."
+    }
+  },
+  {
+    "id": "ecml-pkdd-2027",
+    "name": "ECML PKDD 2027",
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "lat": 51.4416,
+    "lng": 5.4697,
+    "startDate": "2027-08-30",
+    "endDate": "2027-09-03",
+    "mode": "in-person",
+    "url": "https://ecmlpkdd.org/2027/",
+    "emoji": "🇳🇱",
+    "description": {
+      "en": "ECML PKDD 2027, the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, takes place August 30 - September 3, 2027 in Eindhoven, Netherlands."
+    }
+  },
+  {
     "id": "superai-singapore-2027",
     "name": "SuperAI Singapore 2027",
     "city": "Singapore",
@@ -534,6 +942,40 @@
     "emoji": "🇸🇬",
     "description": {
       "en": "SuperAI Singapore 2027 is an AI conference taking place September 8-9, 2027 at Marina Bay Sands, Singapore."
+    }
+  },
+  {
+    "id": "miccai-2027",
+    "name": "MICCAI 2027",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "lat": -36.8485,
+    "lng": 174.7633,
+    "startDate": "2027-09-27",
+    "endDate": "2027-10-01",
+    "mode": "in-person",
+    "url": "https://conferences.miccai.org/2027/en/",
+    "emoji": "🇳🇿",
+    "description": {
+      "en": "MICCAI 2027, the International Conference on Medical Image Computing and Computer Assisted Intervention, takes place September 27 - October 1, 2027 at the New Zealand International Convention Centre in Auckland, New Zealand."
+    }
+  },
+  {
+    "id": "iccv-2027",
+    "name": "ICCV 2027",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "countryCode": "HK",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "startDate": "2027-10-02",
+    "endDate": "2027-10-08",
+    "mode": "in-person",
+    "url": "https://iccv.thecvf.com/Conferences/2027",
+    "emoji": "🇭🇰",
+    "description": {
+      "en": "ICCV 2027, the IEEE/CVF International Conference on Computer Vision, takes place October 2-8, 2027 in Hong Kong."
     }
   }
 ]
