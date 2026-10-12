@@ -430,23 +430,6 @@
     }
   },
   {
-    "id": "salesforce-aiforce-world-tour-new-york-2026",
-    "name": "Salesforce AIforce World Tour New York 2026",
-    "city": "New York",
-    "country": "United States",
-    "countryCode": "US",
-    "lat": 40.7577,
-    "lng": -74.0027,
-    "startDate": "2026-12-03",
-    "endDate": "2026-12-03",
-    "mode": "hybrid",
-    "url": "https://www.salesforce.com/events/world-tour/nyc/",
-    "emoji": "🇺🇸",
-    "description": {
-      "en": "Salesforce AIforce World Tour New York 2026 takes place on December 3, 2026 at the Javits Center in New York and on Salesforce+."
-    }
-  },
-  {
     "id": "ai-engineer-sydney-2026",
     "name": "AI Engineer Sydney 2026",
     "city": "Sydney",
