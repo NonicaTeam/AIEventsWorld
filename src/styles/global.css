@@ -1925,6 +1925,30 @@ ul, ol {
   to { transform: rotate(360deg); }
 }
 
+/* reCAPTCHA v3 badge: hidden as Google allows, because the form shows the
+   required notice instead. visibility (not display: none) keeps reCAPTCHA working. */
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.newsletter-section .newsletter-recaptcha-notice {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.newsletter-section .newsletter-recaptcha-notice a {
+  color: var(--color-accent-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.newsletter-section .newsletter-recaptcha-notice a:hover {
+  color: var(--color-text-primary);
+}
+
 /* Success / error panels shown by Brevo's script */
 .newsletter-section .sib-form-message-panel {
   display: none;
