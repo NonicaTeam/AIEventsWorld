@@ -379,6 +379,23 @@
     }
   },
   {
+    "id": "mcp-dev-summit-nairobi-2026",
+    "name": "MCP Dev Summit Nairobi 2026",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "lat": -1.2921,
+    "lng": 36.8219,
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-20",
+    "mode": "hybrid",
+    "url": "https://events.linuxfoundation.org/mcp-dev-summit-nairobi/",
+    "emoji": "🇰🇪",
+    "description": {
+      "en": "MCP Dev Summit Nairobi 2026 is an Agentic AI Foundation developer summit on the Model Context Protocol, hosted by the Linux Foundation, taking place November 19-20, 2026 in Nairobi, Kenya, with a livestream."
+    }
+  },
+  {
     "id": "uk-ai-research-symposium-2026",
     "name": "UK AI Research Symposium 2026",
     "city": "Edinburgh",
@@ -959,6 +976,23 @@
     "emoji": "🇭🇰",
     "description": {
       "en": "ICCV 2027, the IEEE/CVF International Conference on Computer Vision, takes place October 2-8, 2027 in Hong Kong."
+    }
+  },
+  {
+    "id": "agntsummit-new-york-city-2027",
+    "name": "AGNTSummit New York City 2027",
+    "city": "New York",
+    "country": "United States",
+    "countryCode": "US",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "startDate": "2027-11-01",
+    "endDate": "2027-11-02",
+    "mode": "in-person",
+    "url": "https://events.linuxfoundation.org/agntsummit-new-york-city/",
+    "emoji": "🇺🇸",
+    "description": {
+      "en": "AGNTSummit New York City 2027 is an Agentic AI Foundation summit on AI agents, hosted by the Linux Foundation, taking place November 1-2, 2027 in New York City, United States."
     }
   }
 ]
