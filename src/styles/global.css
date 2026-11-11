@@ -1031,6 +1031,11 @@ ul, ol {
   background-clip: text;
 }
 
+/* No 600px cap here, so the subtitle stays on one line on desktop */
+.featured-section .section-subtitle {
+  max-width: none;
+}
+
 .featured-limit {
   padding: 5px 12px;
   background: rgba(226, 180, 65, 0.08);
