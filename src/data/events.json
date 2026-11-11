@@ -396,6 +396,23 @@
     }
   },
   {
+    "id": "dsc-europe-2026",
+    "name": "DSC Europe 2026",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "lat": 44.8064,
+    "lng": 20.4413,
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-27",
+    "mode": "in-person",
+    "url": "https://www.datasciconference.com/",
+    "emoji": "🇷🇸",
+    "description": {
+      "en": "DSC Europe 2026 is an AI builders conference taking place November 23-27, 2026 at the Belgrade Fair (Hall 3) in Belgrade, Serbia."
+    }
+  },
+  {
     "id": "uk-ai-research-symposium-2026",
     "name": "UK AI Research Symposium 2026",
     "city": "Edinburgh",
@@ -605,6 +622,23 @@
     }
   },
   {
+    "id": "amld-intelligence-summit-2027",
+    "name": "AMLD Intelligence Summit 2027",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "lat": 46.5191,
+    "lng": 6.5668,
+    "startDate": "2027-03-09",
+    "endDate": "2027-03-11",
+    "mode": "in-person",
+    "url": "https://www.appliedmldays.org/amld/2027/overview",
+    "emoji": "🇨🇭",
+    "description": {
+      "en": "AMLD Intelligence Summit 2027 takes place March 9-11, 2027 at the SwissTech Convention Center in Lausanne, Switzerland."
+    }
+  },
+  {
     "id": "nvidia-gtc-2027",
     "name": "NVIDIA GTC 2027",
     "city": "San Jose",
@@ -619,6 +653,57 @@
     "emoji": "🇺🇸",
     "description": {
       "en": "NVIDIA GTC 2027 is NVIDIA's AI conference, taking place March 15-18, 2027 at the San Jose McEnery Convention Center, with in-person and virtual options."
+    }
+  },
+  {
+    "id": "gitex-ai-latam-2027",
+    "name": "GITEX AI LATAM 2027",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "startDate": "2027-03-16",
+    "endDate": "2027-03-17",
+    "mode": "in-person",
+    "url": "https://www.gitexlatam.com/",
+    "emoji": "🇧🇷",
+    "description": {
+      "en": "GITEX AI LATAM 2027 takes place March 16-17, 2027 in São Paulo, Brazil."
+    }
+  },
+  {
+    "id": "ai-bharat-expo-2027",
+    "name": "AI Bharat Expo 2027",
+    "city": "New Delhi",
+    "country": "India",
+    "countryCode": "IN",
+    "lat": 28.6187,
+    "lng": 77.2431,
+    "startDate": "2027-03-23",
+    "endDate": "2027-03-25",
+    "mode": "in-person",
+    "url": "https://www.aibharatexpo.com/",
+    "emoji": "🇮🇳",
+    "description": {
+      "en": "AI Bharat Expo 2027 is an AI exhibition and conference taking place March 23-25, 2027 at Bharat Mandapam in New Delhi, India."
+    }
+  },
+  {
+    "id": "ai-expo-taiwan-2027",
+    "name": "AI EXPO Taiwan 2027",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "lat": 25.0697,
+    "lng": 121.5214,
+    "startDate": "2027-03-24",
+    "endDate": "2027-03-26",
+    "mode": "in-person",
+    "url": "https://ai-expo.tw/exhibit.html",
+    "emoji": "🇹🇼",
+    "description": {
+      "en": "AI EXPO Taiwan 2027 takes place March 24-26, 2027 at the Taipei Expo Park Expo Dome in Taipei, Taiwan."
     }
   },
   {
@@ -721,6 +806,23 @@
     "emoji": "🇨🇿",
     "description": {
       "en": "Machine Learning Prague 2027 takes place May 3-5, 2027 in Prague, Czechia and online."
+    }
+  },
+  {
+    "id": "coling-2027",
+    "name": "COLING 2027",
+    "city": "Macau",
+    "country": "Macau",
+    "countryCode": "MO",
+    "lat": 22.1987,
+    "lng": 113.5439,
+    "startDate": "2027-05-09",
+    "endDate": "2027-05-14",
+    "mode": "in-person",
+    "url": "https://2027.coling-iccl.org/",
+    "emoji": "🇲🇴",
+    "description": {
+      "en": "COLING 2027, the 32nd International Conference on Computational Linguistics, takes place May 9-14, 2027 in Macau."
     }
   },
   {
@@ -877,6 +979,23 @@
     }
   },
   {
+    "id": "icml-2027",
+    "name": "ICML 2027",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "lat": -22.9776,
+    "lng": -43.4103,
+    "startDate": "2027-07-31",
+    "endDate": "2027-08-06",
+    "mode": "in-person",
+    "url": "https://icml.cc/Conferences/2027",
+    "emoji": "🇧🇷",
+    "description": {
+      "en": "ICML 2027, the 44th International Conference on Machine Learning, takes place July 31 - August 6, 2027 at Riocentro in Rio de Janeiro, Brazil."
+    }
+  },
+  {
     "id": "ijcai-2027",
     "name": "IJCAI 2027",
     "city": "Kyoto",
@@ -945,6 +1064,23 @@
     }
   },
   {
+    "id": "gitex-ai-turkiye-2027",
+    "name": "GITEX AI Türkiye 2027",
+    "city": "Istanbul",
+    "country": "Türkiye",
+    "countryCode": "TR",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "startDate": "2027-09-15",
+    "endDate": "2027-09-16",
+    "mode": "in-person",
+    "url": "https://www.gitexturkiye.com/",
+    "emoji": "🇹🇷",
+    "description": {
+      "en": "GITEX AI Türkiye 2027 takes place September 15-16, 2027 in Istanbul, Türkiye."
+    }
+  },
+  {
     "id": "miccai-2027",
     "name": "MICCAI 2027",
     "city": "Auckland",
@@ -976,6 +1112,57 @@
     "emoji": "🇭🇰",
     "description": {
       "en": "ICCV 2027, the IEEE/CVF International Conference on Computer Vision, takes place October 2-8, 2027 in Hong Kong."
+    }
+  },
+  {
+    "id": "world-summit-ai-2027",
+    "name": "World Summit AI 2027",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "lat": 52.4186,
+    "lng": 4.8517,
+    "startDate": "2027-10-06",
+    "endDate": "2027-10-07",
+    "mode": "in-person",
+    "url": "https://worldsummit.ai/",
+    "emoji": "🇳🇱",
+    "description": {
+      "en": "World Summit AI 2027 takes place October 6-7, 2027 at Taets Art & Event Park in Amsterdam, Netherlands."
+    }
+  },
+  {
+    "id": "ai-expo-africa-2027",
+    "name": "AI Expo Africa 2027",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "lat": -26.1066,
+    "lng": 28.0535,
+    "startDate": "2027-10-27",
+    "endDate": "2027-10-28",
+    "mode": "in-person",
+    "url": "https://aiexpoafrica.com/",
+    "emoji": "🇿🇦",
+    "description": {
+      "en": "AI Expo Africa 2027 takes place October 27-28, 2027 at the Sandton Convention Centre in Johannesburg, South Africa."
+    }
+  },
+  {
+    "id": "big-data-ai-world-madrid-2027",
+    "name": "Big Data & AI World Madrid 2027",
+    "city": "Madrid",
+    "country": "Spain",
+    "countryCode": "ES",
+    "lat": 40.464,
+    "lng": -3.616,
+    "startDate": "2027-10-27",
+    "endDate": "2027-10-28",
+    "mode": "in-person",
+    "url": "https://www.techshowmadrid.es/big-data-ai-world",
+    "emoji": "🇪🇸",
+    "description": {
+      "en": "Big Data & AI World Madrid 2027 takes place October 27-28, 2027 at IFEMA Madrid in Madrid, Spain."
     }
   },
   {
